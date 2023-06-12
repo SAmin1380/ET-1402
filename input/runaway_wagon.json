@@ -1,0 +1,13 @@
+{
+    "description":"Runaway Wagon",
+    "actions": ["pull", "refrain"],
+    "consequences": ["OnePeopleDie", "FivePeopleDie"],
+    "mechanisms": {
+                    "OnePeopleDie": "pull",
+                    "FivePeopleDie": "refrain"
+                },
+    "utilities": {
+        "pull": 36,
+        "refrain": 29
+    }
+}

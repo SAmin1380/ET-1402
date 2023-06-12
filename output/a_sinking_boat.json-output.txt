@@ -1,0 +1,18 @@
+A Sinking Boat:
+
+Actions:
+"throwing into water" is an action.
+"not throwing into water" is an action.
+
+Mechanisms:
+"sinkBoat" if "not throwing into water"
+"biggestPeopleDie" if "throwing into water" or "sinkBoat"
+"ThreePeopleDie" if "not throwing into water"
+
+Utilities:
+"throwing into water" is good
+"not throwing into water" is bad
+
+The best choise is "throwing into water" with 36 score.
+
+The intention of this problem for action "throwing into water", consequences: "biggestPeopleDie".

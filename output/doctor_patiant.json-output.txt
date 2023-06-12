@@ -1,0 +1,18 @@
+Doctor & Patiant:
+
+Actions:
+"unsay" is an action.
+"say" is an action.
+
+Mechanisms:
+"satisfactionOfThePatientFamily" if "unsay"
+"lossHopeForLife" if "say"
+"patientSuccumbsToCancer" if "lossHopeForLife"
+
+Utilities:
+"unsay" is bad
+"say" is good
+
+The best choise is "say" with 27 score.
+
+The intention of this problem for action "say", consequences: "lossHopeForLife" --> "patientSuccumbsToCancer".

@@ -1,0 +1,14 @@
+{
+    "description":"A Sinking Boat",
+    "actions": ["throwing into water", "not throwing into water"],
+    "consequences": ["sinkBoat", "biggestPeopleDie", "ThreePeopleDie"],
+    "mechanisms": {
+                    "sinkBoat": "not throwing into water",
+                    "biggestPeopleDie": ["throwing into water", "sinkBoat"],
+                    "ThreePeopleDie": "not throwing into water"
+                },
+    "utilities": {
+        "throwing into water": 36,
+        "not throwing into water": 29
+    }
+}

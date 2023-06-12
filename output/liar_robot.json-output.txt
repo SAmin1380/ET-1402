@@ -1,0 +1,19 @@
+Liar Robot:
+
+Actions:
+"lie" is an action.
+"tell truth" is an action.
+
+Mechanisms:
+"creatingMisconceptionInElderly" if "lie"
+"desireEelderlyToExerciseAndHealthyFood" if "lie" or "creatingMisconceptionInElderly"
+"elderlyExerciseDaily" if "desireEelderlyToExerciseAndHealthyFood"
+"healthyBodyForExerciseAndHealthyFood" if "elderlyExerciseDaily"
+
+Utilities:
+"lie" is good
+"tell truth" is bad
+
+The best choise is "lie" with 34 score.
+
+The intention of this problem for action "lie", consequences: "creatingMisconceptionInElderly" --> "desireEelderlyToExerciseAndHealthyFood" --> "elderlyExerciseDaily" --> "healthyBodyForExerciseAndHealthyFood".

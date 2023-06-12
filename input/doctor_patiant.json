@@ -1,0 +1,14 @@
+{
+    "description":"Doctor & Patiant",
+    "actions": ["unsay", "say"],
+    "consequences": ["lossHopeForLife", "satisfactionOfThePatientFamily", "patientSuccumbsToCancer"],
+    "mechanisms": {
+                    "satisfactionOfThePatientFamily": "unsay",
+                    "lossHopeForLife": "say",
+                    "patientSuccumbsToCancer": "lossHopeForLife"
+                },
+    "utilities": {
+        "unsay": 19,
+        "say": 27
+    }
+}

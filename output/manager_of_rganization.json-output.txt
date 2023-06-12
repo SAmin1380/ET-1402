@@ -1,0 +1,17 @@
+Manager of Organization:
+
+Actions:
+"salary increase" is an action.
+"no salary increase" is an action.
+
+Mechanisms:
+"helpChildInTreatmentOfDisease" if "salary increase"
+"justiceInSalaryPayment" if "no salary increase"
+
+Utilities:
+"salary increase" is bad
+"no salary increase" is good
+
+The best choise is "no salary increase" with 27 score.
+
+The intention of this problem for action "no salary increase", consequences: "justiceInSalaryPayment".

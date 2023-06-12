@@ -1,0 +1,16 @@
+{
+    "description":"Father & Son",
+    "actions": ["direct conversation", "spread rumour", "ignore rumor"],
+    "consequences": ["CorrectNeighborBehavior", "causingMoreTensionAndHarassmentOfChild", "destroyingNeighborReputation", "continueAbuseChild"],
+    "mechanisms": {
+                    "CorrectNeighborBehavior": ["direct conversation", "spread rumour", "ignore rumor"],
+                    "causingMoreTensionAndHarassmentOfChild": "direct conversation",
+                    "destroyingNeighborReputation": "spread rumour",
+                    "continueAbuseChild": "ignore rumor"
+                },
+    "utilities": {
+        "direct conversation": 32,
+        "spread rumour": 15,
+        "ignore rumor": 27
+    }
+}

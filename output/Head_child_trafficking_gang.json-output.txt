@@ -1,0 +1,18 @@
+Ploice & Head of Child Trafficking Gang:
+
+Actions:
+"make case" is an action.
+"wait to get proof" is an action.
+
+Mechanisms:
+"suspectArrested" if "make case"
+"saveLivesOfChildren" if "suspectArrested"
+"fairEnforcementOfLawForSuspect" if "wait to get proof"
+
+Utilities:
+"make case" is bad
+"wait to get proof" is good
+
+The best choise is "wait to get proof" with 27 score.
+
+The intention of this problem for action "wait to get proof", consequences: "fairEnforcementOfLawForSuspect".

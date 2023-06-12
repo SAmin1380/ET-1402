@@ -1,0 +1,13 @@
+{
+    "description":"Manager of Organization",
+    "actions": ["salary increase", "no salary increase"],
+    "consequences": ["helpChildInTreatmentOfDisease", "justiceInSalaryPayment"],
+    "mechanisms": {
+                    "helpChildInTreatmentOfDisease": "salary increase",
+                    "justiceInSalaryPayment": "no salary increase"
+                },
+    "utilities": {
+        "salary increase": 15,
+        "no salary increase": 27
+    }
+}

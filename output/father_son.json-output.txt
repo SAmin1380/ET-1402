@@ -1,0 +1,16 @@
+Father & Son:
+
+Actions:
+"direct conversation" is an action.
+"spread rumour" is an action.
+"ignore rumor" is an action.
+
+Mechanisms:
+"CorrectNeighborBehavior" if "direct conversation" or "spread rumour" or "ignore rumor"
+"causingMoreTensionAndHarassmentOfChild" if "direct conversation"
+"destroyingNeighborReputation" if "spread rumour"
+"continueAbuseChild" if "ignore rumor"
+
+Utilities:
+"direct conversation" is good
+"spread rumour" is bad

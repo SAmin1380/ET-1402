@@ -1,0 +1,14 @@
+{
+    "description":"Ploice & Head of Child Trafficking Gang",
+    "actions": ["make case", "wait to get proof"],
+    "consequences": ["saveLivesOfChildren", "suspectArrested", "fairEnforcementOfLawForSuspect"],
+    "mechanisms": {
+                    "suspectArrested": "make case",
+                    "saveLivesOfChildren": "suspectArrested",
+                    "fairEnforcementOfLawForSuspect": "wait to get proof"
+                },
+    "utilities": {
+        "make case": 15,
+        "wait to get proof": 27
+    }
+}

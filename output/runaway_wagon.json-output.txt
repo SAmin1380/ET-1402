@@ -1,0 +1,17 @@
+Runaway Wagon:
+
+Actions:
+"pull" is an action.
+"refrain" is an action.
+
+Mechanisms:
+"OnePeopleDie" if "pull"
+"FivePeopleDie" if "refrain"
+
+Utilities:
+"pull" is good
+"refrain" is bad
+
+The best choise is "pull" with 36 score.
+
+The intention of this problem for action "pull", consequences: "OnePeopleDie".

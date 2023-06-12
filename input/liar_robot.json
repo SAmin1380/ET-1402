@@ -1,0 +1,15 @@
+{
+    "description":"Liar Robot",
+    "actions": ["lie", "tell truth"],
+    "consequences": ["creatingMisconceptionInElderly", "desireEelderlyToExerciseAndHealthyFood", "elderlyExerciseDaily", "healthyBodyForExerciseAndHealthyFood"],
+    "mechanisms": {
+                    "creatingMisconceptionInElderly": "lie",
+                    "desireEelderlyToExerciseAndHealthyFood": ["lie", "creatingMisconceptionInElderly"],
+                    "elderlyExerciseDaily": "desireEelderlyToExerciseAndHealthyFood",
+                    "healthyBodyForExerciseAndHealthyFood": "elderlyExerciseDaily"
+                },
+    "utilities": {
+        "lie": 34,
+        "tell truth": 29
+    }
+}
