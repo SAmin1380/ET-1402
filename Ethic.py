@@ -111,11 +111,11 @@ def printSenarioOutput(file):
     printIntentionDetails(mechanism, key, newF)
 
 
+if __name__=="__main__":
+    path = os.listdir('input')
+    path = sorted(path)
 
-path = os.listdir('input')
-path = sorted(path)
+    for file in path:
+        printSenarioOutput(file)
 
-for file in path:
-    printSenarioOutput(file)
-
-print('Outputs save successfully in output directory...')
+    print('Outputs save successfully in output directory...')

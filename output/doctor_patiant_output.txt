@@ -13,6 +13,6 @@ Utilities:
 "say" is good
 "unsay" is bad
 
-The best choise is "say" with 27 score.
+The best choise is "say" with 34 score.
 
 The intention of this problem for action "say", consequences: "lossHopeForLife" --> "patientSuccumbsToCancer".

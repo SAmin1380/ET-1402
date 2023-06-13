@@ -12,6 +12,6 @@ Utilities:
 "no salary increase" is good
 "salary increase" is bad
 
-The best choise is "no salary increase" with 27 score.
+The best choise is "no salary increase" with 29 score.
 
 The intention of this problem for action "no salary increase", consequences: "justiceInSalaryPayment".

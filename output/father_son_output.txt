@@ -16,6 +16,6 @@ Utilities:
 "spread rumour" is bad
 "ignore rumor" is bad
 
-The best choise is "direct conversation" with 32 score.
+The best choise is "direct conversation" with 36 score.
 
 The intention of this problem for action "direct conversation", consequences: "CorrectNeighborBehavior" --> "causingMoreTensionAndHarassmentOfChild".

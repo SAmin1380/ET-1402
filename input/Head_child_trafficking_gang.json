@@ -8,7 +8,7 @@
                     "fairEnforcementOfLawForSuspect": "wait to get proof"
                 },
     "utilities": {
-        "make case": 15,
-        "wait to get proof": 27
+        "make case": 24,
+        "wait to get proof": 29
     }
 }

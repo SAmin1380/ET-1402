@@ -9,8 +9,8 @@
                     "continueAbuseChild": "ignore rumor"
                 },
     "utilities": {
-        "direct conversation": 32,
-        "spread rumour": 15,
-        "ignore rumor": 27
+        "direct conversation": 36,
+        "spread rumour": 34,
+        "ignore rumor": 32
     }
 }
