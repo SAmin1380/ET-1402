@@ -49,28 +49,45 @@ for file in path:
     # write Utilities of problem
     newF.write(f'Utilities:\n')
     utility = dict(data['utilities'])
-    utils = list(utility)[::-1]
     
-    while len(utils) > 0:
-        a = utils.pop()
-        b = utils.pop()
-        if utility[a] > utility[b]:
-            newF.write(f'"{a}" is good\n')
-            newF.write(f'"{b}" is bad\n')
-        else:
-            newF.write(f'"{a}" is bad\n')
-            newF.write(f'"{b}" is good\n')
-    newF.write('\n')
+    # utils = list(utility)[::-1]
+    
+    # while len(utils) > 0:
+    #     a = utils.pop()
+    #     b = utils.pop()
+    #     if utility[a] > utility[b]:
+    #         newF.write(f'"{a}" is good\n')
+    #         newF.write(f'"{b}" is bad\n')
+    #     else:
+    #         newF.write(f'"{a}" is bad\n')
+    #         newF.write(f'"{b}" is good\n')
 
-
-    # write best choise of problem
     maximum = float('-inf')
     key = None
-    
-    for k,v in utility.items():
+
+    for k, v in utility.items():
         if v > maximum:
             maximum = v
             key = k
+    
+    newF.write(f'"{key}" is good\n')
+    for k, v in utility.items():
+        if v != maximum:
+            newF.write(f'"{k}" is bad\n')
+    newF.write('\n')
+
+
+
+    # write best choise of problem
+    
+    # maximum = float('-inf')
+    # key = None
+    
+    # for k,v in utility.items():
+    #     if v > maximum:
+    #         maximum = v
+    #         key = k
+
     newF.write(f'The best choise is "{key}" with {maximum} score.\n\n')
 
 

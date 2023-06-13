@@ -14,3 +14,8 @@ Mechanisms:
 Utilities:
 "direct conversation" is good
 "spread rumour" is bad
+"ignore rumor" is bad
+
+The best choise is "direct conversation" with 32 score.
+
+The intention of this problem for action "direct conversation", consequences: "CorrectNeighborBehavior" --> "causingMoreTensionAndHarassmentOfChild".
